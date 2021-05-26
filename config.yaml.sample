@@ -1,0 +1,5 @@
+# a latency SLA is expressed as a list of form (regexp, latency bound, tolerance bound)
+# the latency bound should be in seconds
+SLAs:
+        - ["urg_perception.*", 0.020, 0.05]
+        - ["urg_action.*", 0.010, 0.05]
